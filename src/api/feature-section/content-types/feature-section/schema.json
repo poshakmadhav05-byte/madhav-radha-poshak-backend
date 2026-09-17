@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "feature_sections",
+  "info": {
+    "singularName": "feature-section",
+    "pluralName": "feature-sections",
+    "displayName": "FeatureSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "card1Icon": {
+      "type": "string"
+    },
+    "card1Title": {
+      "type": "string"
+    },
+    "card1Desc": {
+      "type": "text"
+    },
+    "card2Icon": {
+      "type": "string"
+    },
+    "card2Title": {
+      "type": "string"
+    },
+    "card2Desc": {
+      "type": "text"
+    },
+    "card3Icon": {
+      "type": "string"
+    },
+    "card3Title": {
+      "type": "string"
+    },
+    "card3Desc": {
+      "type": "text"
+    },
+    "card4Icon": {
+      "type": "string"
+    },
+    "card4Title": {
+      "type": "string"
+    },
+    "card4Desc": {
+      "type": "text"
+    }
+  }
+}

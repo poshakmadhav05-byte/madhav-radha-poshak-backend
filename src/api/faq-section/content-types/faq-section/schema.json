@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "faq_sections",
+  "info": {
+    "singularName": "faq-section",
+    "pluralName": "faq-sections",
+    "displayName": "FAQSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    }
+  }
+}
