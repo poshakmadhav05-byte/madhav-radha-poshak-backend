@@ -37,9 +37,9 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
       // Yahan humne Cloudinary ko provider set kar diya hai
       provider: 'cloudinary',
       providerOptions: {
-        cloud_name: 'h101rzxq',
-        api_key: '539593773694939',
-        api_secret: 'qLLJCqmzqrWxZV1U1Ej7mVcjwBc',
+        cloud_name: env('CLOUDINARY_NAME'),
+        api_key: env('CLOUDINARY_KEY'),
+        api_secret: env('CLOUDINARY_SECRET'),
       },
       actionOptions: {
         upload: {},
